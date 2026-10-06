@@ -1,0 +1,9 @@
+{{ define "main" }}
+{{/* Plain list of all OER: works without JavaScript and is easy to crawl. */}}
+<h1>{{ i18n "all_resources" }}</h1>
+<ol class="plain-list">
+  {{ range .RegularPages.ByTitle }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  {{ end }}
+</ol>
+{{ end }}

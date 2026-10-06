@@ -1,0 +1,7 @@
+{{ $stats := hugo.Data.vocab.stats }}
+<footer class="site-footer">
+  <div class="container site-footer-inner">
+    <p><a href="https://doi.org/10.5281/zenodo.11521028" target="_blank">{{ i18n "footer_data" }}</a> · {{ i18n "stats_updated" }}: {{ time.Format ":date_medium" $stats.updated }}</p>
+    <p><a href="{{ "oer/" | relLangURL }}">{{ i18n "all_resources" }}</a></p>
+  </div>
+</footer>

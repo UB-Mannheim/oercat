@@ -1,0 +1,27 @@
+# Known misspellings / variants in the xlsx, mapped to the canonical value.
+# Keys are xlsx column headers. Case and punctuation differences are already
+# handled automatically ("video" == "Video", "lesson_plan" == "LessonPlan"),
+# so only add entries here for real variants.
+
+LearningResourceType:
+  Training: Tutorial
+  "Tutorial / Training module": Tutorial
+  lesson: LessonPlan
+  other: OtherResourceType
+
+MediaType:
+  "Text / Presentation (HTML-based training module)": Text
+
+ProficiencyLevel:
+  Beginner: AdvancedBeginner
+  "Novice / Beginner": Novice
+  Advanced: Proficient
+
+TargetGroup:
+  MusemProfessional: MuseumProfessional
+
+AccessibilityFeature:
+  subtitles: captions
+  closedCaption: closedCaptions
+  alt_text: alternativeText
+  alt-text: alternativeText

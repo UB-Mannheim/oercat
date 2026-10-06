@@ -1,0 +1,117 @@
+# Display labels for vocabulary values, per UI language.
+# Values without an entry are shown as-is (CamelCase is split into words).
+# Discipline labels come from disciplines.json (run `oercat fetch-vocab`).
+
+de:
+  type:
+    Article: Artikel
+    Assessment: Test / Prüfung
+    BestPractices: Best Practices
+    Book: Buch
+    CaseStudy: Fallstudie
+    CodeNotebook: Code-Notebook
+    Cookbook: Kochbuch
+    Course: Kurs
+    Data: Daten
+    Diagram: Diagramm
+    DrillAndPractice: Übung
+    Educational Game: Lernspiel
+    Experiment: Experiment
+    Lecture: Vorlesung
+    LessonPlan: Unterrichtsplan
+    Map: Karte
+    Podcast: Podcast
+    Poster: Poster
+    Questionnaire: Fragebogen
+    ReferenceWork: Nachschlagewerk
+    Report: Bericht
+    Script: Skript
+    SheetMusic: Noten
+    Simulation: Simulation
+    SoftwareApplication: Software
+    SoftwareSourceCode: Quellcode
+    Textbook: Lehrbuch
+    Thesis: Abschlussarbeit
+    Tutorial: Tutorial
+    Webpage: Webseite
+    WebPortal: Webportal
+    Worksheet: Arbeitsblatt
+    Workshop: Workshop
+    WebSite: Website
+    OtherResourceType: Sonstiges
+  media:
+    Audio: Audio
+    Video: Video
+    Text: Text
+    Presentation: Präsentation
+    Code: Code
+    Image: Bild
+    Multipart: Mehrteilig
+  level:
+    Novice: Einsteiger
+    AdvancedBeginner: Fortgeschrittene Anfänger
+    Competent: Kompetent
+    Proficient: Erfahren
+    Expert: Expert:in
+  audience:
+    StudentSchool: Schüler:innen
+    BachelorStudent: Bachelor-Studierende
+    Master'sStudent: Master-Studierende
+    PhDStudent: Promovierende
+    DataSteward: Data Stewards
+    TeacherSchool: Lehrkräfte (Schule)
+    TeacherHigherEducation: Lehrende (Hochschule)
+    Researcher: Forschende
+    ContentProvider: Content-Anbieter
+    Librarian: Bibliothekar:innen
+    Archivist: Archivar:innen
+    MuseumProfessional: Museumsfachleute
+  language:
+    de: Deutsch
+    en: Englisch
+    fr: Französisch
+    es: Spanisch
+    it: Italienisch
+    nl: Niederländisch
+  accessibility:
+    alternativeText: Alternativtext
+    audioDescription: Audiodeskription
+    captions: Untertitel
+    closedCaptions: Untertitel (zuschaltbar)
+    openCaptions: Untertitel (eingeblendet)
+    transcript: Transkript
+    signLanguage: Gebärdensprache
+
+en:
+  type:
+    DrillAndPractice: Drill and practice
+    LessonPlan: Lesson plan
+    OtherResourceType: Other
+  level:
+    AdvancedBeginner: Advanced beginner
+  audience:
+    StudentSchool: School students
+    BachelorStudent: Bachelor students
+    Master'sStudent: Master's students
+    PhDStudent: PhD students
+    DataSteward: Data stewards
+    TeacherSchool: School teachers
+    TeacherHigherEducation: University teachers
+    Researcher: Researchers
+    ContentProvider: Content providers
+    Librarian: Librarians
+    Archivist: Archivists
+    MuseumProfessional: Museum professionals
+  language:
+    de: German
+    en: English
+    fr: French
+    es: Spanish
+    it: Italian
+    nl: Dutch
+  accessibility:
+    alternativeText: Alternative text
+    audioDescription: Audio description
+    closedCaptions: Closed captions
+    openCaptions: Open captions
+    signLanguage: Sign language

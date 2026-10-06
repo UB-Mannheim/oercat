@@ -1,0 +1,2 @@
+{{- /* Client-side search index: all OER records (see oercat/export.py). */ -}}
+{{- hugo.Data.oers | jsonify -}}

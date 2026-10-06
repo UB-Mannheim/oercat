@@ -1,0 +1,59 @@
+# UI strings (English). Keys starting with facet_ are filter / field titles and
+# must exist for every key in oercat/schema.py FACETS.
+header_title: AiDaLi · OERcat
+tagline: A growing collection of open educational resources (OER) on artificial intelligence and data literacy.
+search_label: Search the catalogue
+search_placeholder: Title, keyword, description, person …
+stats_oer: OER
+stats_languages: languages
+stats_disciplines: disciplines
+stats_keywords: keywords
+stats_updated: Updated
+filters: Filters
+close: Close
+reset_filters: Reset all filters
+remove_filter: Remove filter
+sort_label: Sort
+sort_relevance: Relevance
+sort_added: Recently added
+sort_newest: Newest first
+sort_title: Title A–Z
+results_one: "{n} resource"
+results_other: "{n} resources"
+no_results: No results. Try another search term or remove some filters.
+loading: Loading catalogue …
+load_more: Show more
+show_more: "Show all {n}"
+show_less: Show less
+filter_values: Filter values …
+year: Publication year
+year_from: from
+year_to: to
+any: any
+et_al: et al.
+open_resource: Open resource
+back_to_results: Back to results
+all_resources: All resources as a list
+noscript: Search requires JavaScript.
+teaches: Learning objectives
+links: Links
+date: Published
+accessibility_note: Accessibility notes
+catalogue_no: Catalogue number
+role_S: supporting
+role_R: recommending
+orcid: ORCID profile
+footer_data: Metadata following the DALIA Interchange Format 1.4
+facet_type: Resource type
+facet_discipline: Discipline
+facet_language: Language
+facet_level: Proficiency level
+facet_audience: Target group
+facet_media: Media type
+facet_license: License
+facet_community: Community
+facet_publisher: Publisher
+facet_format: File format
+facet_keywords: Keywords
+facet_authors: Authors
+facet_accessibility: Accessibility

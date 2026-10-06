@@ -1,0 +1,10 @@
+{{/* One page per OER and language at /<lang>/oer/<No>/, built from data/oers.json. */}}
+{{ range hugo.Data.oers }}
+  {{ $.AddPage (dict
+    "path" (string .id)
+    "title" .title
+    "kind" "page"
+    "params" (dict "oer" .)
+    "sites" (dict "matrix" (dict "languages" (slice "**")))
+  ) }}
+{{ end }}

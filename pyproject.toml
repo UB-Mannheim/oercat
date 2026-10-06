@@ -1,0 +1,42 @@
+[project]
+name = "oercat"
+version = "0.1.0"
+description = "Dashboard for browsing a collection of Open Education Resources with a focus und AI & Data Literacy"
+readme = "README.md"
+authors = [
+    { name = "tsmdt", email = "thomas.schmidt@uni-mannheim.de" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "openpyxl>=3.1.5",
+    "pyyaml>=6.0.3",
+]
+
+[project.scripts]
+oercat = "oercat:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["oercat*"]
+
+[tool.setuptools.package-data]
+oercat = ["vocab/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+ignore = ["BLE001"]
+
+[dependency-groups]
+dev = [
+    "hugo>=0.167.0",
+    "pytest>=9.1.1",
+    "ruff>=0.16.10",
+]

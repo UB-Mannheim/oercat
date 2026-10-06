@@ -1,0 +1,76 @@
+{{ define "main" }}
+{{ $o := .Params.oer }}
+{{ $labels := index hugo.Data.vocab.labels .Language.Lang }}
+<article class="detail">
+  <p><a class="back-link" href="{{ "" | relLangURL }}" data-back-link>← {{ i18n "back_to_results" }}</a></p>
+
+  <header class="detail-header">
+    {{ with $o.type }}<p class="eyebrow">{{ range $i, $v := . }}{{ if $i }} · {{ end }}{{ or (index $labels.type $v) $v }}{{ end }}</p>{{ end }}
+    <h1>{{ $o.title }}</h1>
+    {{ with $o.authors }}
+      <p class="detail-authors">
+        {{ range $i, $name := . }}{{ if $i }}; {{ end }}{{ $name }}{{ with index $o.author_links $name }}
+          <a class="orcid" href="{{ . }}" title="{{ i18n "orcid" }}" aria-label="{{ i18n "orcid" }}: {{ $name }}">iD</a>{{ end }}{{ end }}
+      </p>
+    {{ end }}
+    <div class="detail-actions">
+      {{ range $i, $link := $o.links }}
+        <a class="button{{ if $i }} button-secondary{{ end }}" href="{{ $link }}" target="_blank" rel="noopener">
+          {{ if not $i }}{{ i18n "open_resource" }}{{ else }}{{ (urls.Parse $link).Host }}{{ end }} ↗</a>
+      {{ end }}
+    </div>
+  </header>
+
+  <div class="detail-body">
+    <section class="detail-text">
+      {{ with $o.description }}
+        {{ range split . "\n" }}{{ with strings.TrimSpace . }}<p>{{ . }}</p>{{ end }}{{ end }}
+      {{ end }}
+      {{ with $o.teaches }}
+        <h2>{{ i18n "teaches" }}</h2>
+        <p>{{ . }}</p>
+      {{ end }}
+    </section>
+
+    <aside class="detail-meta">
+      <dl>
+        {{ range $key := slice "discipline" "audience" "level" "language" "media" "keywords" "license" "format" "accessibility" }}
+          {{ with index $o $key }}
+            <dt>{{ i18n (printf "facet_%s" $key) }}</dt>
+            <dd>{{ partial "chips.html" (dict "page" $ "key" $key "values" .) }}</dd>
+          {{ end }}
+        {{ end }}
+        {{ with $o.accessibility_note }}
+          <dt>{{ i18n "accessibility_note" }}</dt><dd>{{ . }}</dd>
+        {{ end }}
+        {{ with $o.date }}
+          <dt>{{ i18n "date" }}</dt><dd><time datetime="{{ . }}">{{ . }}</time></dd>
+        {{ end }}
+        {{ with $o.publisher }}
+          <dt>{{ i18n "facet_publisher" }}</dt>
+          <dd>{{ partial "chips.html" (dict "page" $ "key" "publisher" "values" .) }}</dd>
+        {{ end }}
+        {{ with $o.community }}
+          <dt>{{ i18n "facet_community" }}</dt>
+          <dd>
+            <ul class="chips">
+              {{ range . }}
+                <li><a class="chip" href="{{ printf "%s?%s" ("" | relLangURL) (querify "community" .) | safeURL }}">{{ . }}</a>
+                {{ with index $o.community_roles . }}<span class="muted">({{ i18n (printf "role_%s" .) }})</span>{{ end }}</li>
+              {{ end }}
+            </ul>
+          </dd>
+        {{ end }}
+        <dt>{{ i18n "catalogue_no" }}</dt><dd>{{ $o.id }}</dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<script>
+  // Return to the exact search the visitor came from (stored by search.js).
+  try {
+    const last = sessionStorage.getItem("oer-last-search-{{ .Language.Lang }}");
+    if (last) document.querySelector("[data-back-link]").href = last;
+  } catch (e) {}
+</script>
+{{ end }}

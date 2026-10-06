@@ -1,0 +1,88 @@
+{{ define "main" }}
+{{ $vocab := hugo.Data.vocab }}
+{{ $lang := .Language.Lang }}
+
+<section class="hero">
+  <h1>{{ .Site.Title }}</h1>
+  <p class="tagline">{{ i18n "tagline" }}</p>
+  <form class="search" role="search" action="" onsubmit="return false">
+    <label class="visually-hidden" for="q">{{ i18n "search_label" }}</label>
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    <input id="q" name="q" type="search" placeholder="{{ i18n "search_placeholder" }}" autocomplete="off" spellcheck="false">
+  </form>
+  <!-- <ul class="stats">
+    <li><strong>{{ $vocab.stats.total }}</strong> {{ i18n "stats_oer" }}</li>
+    <li><strong>{{ $vocab.stats.languages }}</strong> {{ i18n "stats_languages" }}</li>
+    <li><strong>{{ $vocab.stats.disciplines }}</strong> {{ i18n "stats_disciplines" }}</li>
+    <li><strong>{{ $vocab.stats.keywords }}</strong> {{ i18n "stats_keywords" }}</li>
+    <li>{{ i18n "stats_updated" }}: <strong>{{ time.Format ":date_medium" $vocab.stats.updated }}</strong></li>
+  </ul> -->
+</section>
+
+<div class="layout">
+  <aside class="filters" id="filters" aria-labelledby="filters-title">
+    <div class="filters-head">
+      <h2 id="filters-title">{{ i18n "filters" }}</h2>
+      <button type="button" class="link-button only-mobile" id="filters-close">{{ i18n "close" }}</button>
+    </div>
+    <div id="facets"></div>
+    <details class="facet" open>
+      <summary>{{ i18n "year" }}</summary>
+      <div class="facet-years">
+        <label>{{ i18n "year_from" }}
+          <select id="year-from"><option value="">{{ i18n "any" }}</option>{{ range $vocab.years }}<option>{{ . }}</option>{{ end }}</select>
+        </label>
+        <label>{{ i18n "year_to" }}
+          <select id="year-to"><option value="">{{ i18n "any" }}</option>{{ range $vocab.years }}<option>{{ . }}</option>{{ end }}</select>
+        </label>
+      </div>
+    </details>
+  </aside>
+
+  <section class="results" aria-labelledby="result-count">
+    <div class="toolbar">
+      <button type="button" class="button button-secondary only-mobile" id="filters-open" aria-controls="filters">{{ i18n "filters" }}</button>
+      <p class="result-count" id="result-count" aria-live="polite">{{ i18n "loading" }}</p>
+      <label>{{ i18n "sort_label" }}
+        <select id="sort">
+          <option value="relevance">{{ i18n "sort_relevance" }}</option>
+          <option value="added">{{ i18n "sort_added" }}</option>
+          <option value="newest">{{ i18n "sort_newest" }}</option>
+          <option value="title">{{ i18n "sort_title" }}</option>
+        </select>
+      </label>
+    </div>
+    <div class="active-filters" id="active-filters"></div>
+    <ol class="cards" id="results"></ol>
+    <noscript>
+      <p class="empty">{{ i18n "noscript" }} <a href="{{ "oer/" | relLangURL }}">{{ i18n "all_resources" }}</a></p>
+    </noscript>
+    <button type="button" class="button button-secondary load-more" id="load-more" hidden>{{ i18n "load_more" }}</button>
+  </section>
+</div>
+
+{{/* Everything search.js needs: facet definitions, labels and UI strings. */}}
+{{ $strings := dict }}
+{{ range slice "results_one" "results_other" "no_results" "show_more" "show_less" "filter_values"
+               "et_al" "open_resource" "reset_filters" "remove_filter" "year" "filters" }}
+  {{ $strings = merge $strings (dict . (i18n .)) }}
+{{ end }}
+{{ $titles := dict }}
+{{ range $vocab.facets }}
+  {{ $titles = merge $titles (dict .key (i18n (printf "facet_%s" .key))) }}
+{{ end }}
+{{ $config := dict
+  "lang" $lang
+  "indexURL" ("index.json" | relLangURL)
+  "oerBase" ("oer/" | relLangURL)
+  "facets" $vocab.facets
+  "facetTitles" $titles
+  "labels" (index $vocab.labels $lang)
+  "searchFields" $vocab.search_fields
+  "i18n" $strings
+}}
+<script type="application/json" id="oer-config">{{ $config | jsonify | safeJS }}</script>
+{{ with resources.Get "js/search.js" | js.Build (dict "minify" hugo.IsProduction "format" "esm" "target" "es2020") | fingerprint }}
+<script type="module" src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}"></script>
+{{ end }}
+{{ end }}

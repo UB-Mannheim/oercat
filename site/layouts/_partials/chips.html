@@ -1,0 +1,9 @@
+{{/* Facet values as chips that link to the search page with this filter.
+     Params: page, key (facet key), values (list). */}}
+{{ $labels := index hugo.Data.vocab.labels .page.Language.Lang .key }}
+{{ $home := "" | relLangURL }}
+<ul class="chips">
+  {{ range .values }}
+    <li><a class="chip" href="{{ printf "%s?%s" $home (querify $.key .) | safeURL }}">{{ or (index $labels .) . }}</a></li>
+  {{ end }}
+</ul>

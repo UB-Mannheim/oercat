@@ -1,0 +1,15 @@
+<header class="site-header">
+  <div class="container site-header-inner">
+    <a class="brand" href="{{ "" | relLangURL }}">{{ i18n "header_title" }}</a>
+    <nav class="lang-switch" aria-label="Language">
+      {{ range .AllTranslations }}
+        {{ if eq .Language.Lang $.Language.Lang }}
+          <span aria-current="true">{{ .Language.Lang | upper }}</span>
+        {{ else }}
+          <a href="{{ .RelPermalink }}" hreflang="{{ .Language.Lang }}" lang="{{ .Language.Lang }}"
+             title="{{ .Language.Label }}" data-lang-switch>{{ .Language.Lang | upper }}</a>
+        {{ end }}
+      {{ end }}
+    </nav>
+  </div>
+</header>

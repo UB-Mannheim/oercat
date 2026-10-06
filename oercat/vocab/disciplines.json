@@ -1,0 +1,1390 @@
+{
+ "n0": {
+  "de": "Fachübergreifend",
+  "en": "Interdisciplinary"
+ },
+ "n001": {
+  "de": "Ägyptologie",
+  "en": "Egyptology"
+ },
+ "n002": {
+  "de": "Afrikanistik",
+  "en": "African Studies"
+ },
+ "n003": {
+  "de": "Agrarwissenschaft/Landwirtschaft",
+  "en": "Agricultural Science/Agriculture"
+ },
+ "n004": {
+  "de": "Interdisziplinäre Studien (Schwerpunkt Geisteswissenschaften)",
+  "en": "Interdisciplinary Studies (specialising in Humanities)"
+ },
+ "n005": {
+  "de": "Klassische Philologie",
+  "en": "Classical Philology"
+ },
+ "n006": {
+  "de": "Amerikanistik/Amerikakunde",
+  "en": "American Studies"
+ },
+ "n007": {
+  "de": "Angewandte Kunst",
+  "en": "Applied Art"
+ },
+ "n008": {
+  "de": "Anglistik/Englisch",
+  "en": "English Studies"
+ },
+ "n009": {
+  "de": "Anthropologie (Humanbiologie)",
+  "en": "Anthropology (Human Biology)"
+ },
+ "n01": {
+  "de": "Geisteswissenschaften allgemein",
+  "en": "Humanities (general)"
+ },
+ "n010": {
+  "de": "Arabisch/Arabistik",
+  "en": "Arabic/Arabic Studies"
+ },
+ "n011": {
+  "de": "Arbeitslehre/Wirtschaftslehre",
+  "en": "Work Studies/Business Studies"
+ },
+ "n012": {
+  "de": "Archäologie",
+  "en": "Archaeology"
+ },
+ "n0128": {
+  "de": "Physik",
+  "en": "Physics"
+ },
+ "n013": {
+  "de": "Architektur",
+  "en": "Architecture"
+ },
+ "n014": {
+  "de": "Astrophysik und Astronomie",
+  "en": "Astrophysics, Astronomy"
+ },
+ "n015": {
+  "de": "Außereuropäische Sprachen und Kulturen in Ozeanien und Amerika",
+  "en": "Non-European Languages and Cultures in Oceania and America"
+ },
+ "n016": {
+  "de": "Baltistik",
+  "en": "Baltic Studies"
+ },
+ "n017": {
+  "de": "Bauingenieurwesen/Ingenieurbau",
+  "en": "Civil Engineering/Structural Engineering"
+ },
+ "n018": {
+  "de": "Berufsbezogene Fremdsprachenausbildung",
+  "en": "Occupation-specific Foreign Language Training"
+ },
+ "n019": {
+  "de": "Orientierungsstudium MINT",
+  "en": "STEM orientation studies"
+ },
+ "n02": {
+  "de": "Evangelische Theologie, -Religionslehre",
+  "en": "Protestant Theology, Protestant Religious Education"
+ },
+ "n020": {
+  "de": "Bergbau/Bergtechnik",
+  "en": "Mining/Mine Engineering"
+ },
+ "n021": {
+  "de": "Betriebswirtschaftslehre",
+  "en": "Business Administration"
+ },
+ "n022": {
+  "de": "Informations- und Bibliothekswissenschaften (nicht für Verwaltungsfachhochschulen)",
+  "en": "Information and Library Sciences"
+ },
+ "n023": {
+  "de": "Bildende Kunst/Graphik",
+  "en": "Fine Arts/Graphics"
+ },
+ "n024": {
+  "de": "Europäische Ethnologie und Kulturwissenschaft",
+  "en": "European Ethnology and Cultural Studies"
+ },
+ "n025": {
+  "de": "Biochemie",
+  "en": "Biochemistry"
+ },
+ "n026": {
+  "de": "Biologie",
+  "en": "Biology"
+ },
+ "n028": {
+  "de": "Brauwesen/Getränketechnologie",
+  "en": "Brewing Science/Beverage Technology"
+ },
+ "n029": {
+  "de": "Sportwissenschaft",
+  "en": "Sports Science"
+ },
+ "n03": {
+  "de": "Katholische Theologie, -Religionslehre",
+  "en": "Catholic Theology, Catholic Religious Education"
+ },
+ "n030": {
+  "de": "Interdisziplin. Studien (Schwerpunkt Rechts-, Wirtschafts- und Sozialwissenschaften)",
+  "en": "Interdisc. St. (spec. in Law, Econ. and Soc. Sci.)"
+ },
+ "n030010001": {
+  "de": "Islamische Studien/Islamische Theologie",
+  "en": "Islamic Studies/Islamic Theology"
+ },
+ "n031": {
+  "de": "Byzantinistik",
+  "en": "Byzantine Studies"
+ },
+ "n032": {
+  "de": "Chemie",
+  "en": "Chemistry"
+ },
+ "n033": {
+  "de": "Chemie-Ingenieurwesen/Chemieverfahrenstechnik",
+  "en": "Chemical Engineering/Chemical Process Engineering"
+ },
+ "n034": {
+  "de": "Dänisch",
+  "en": "Danish"
+ },
+ "n035": {
+  "de": "Darstellende Kunst/Bühnenkunst/Regie",
+  "en": "Performing Arts/Stagecraft/Directing"
+ },
+ "n036": {
+  "de": "Sonstige Regionalwissenschaften",
+  "en": "Other regional studies"
+ },
+ "n037": {
+  "de": "Archiv- und Dokumentationswissenschaft",
+  "en": "Archival and Documentation Science"
+ },
+ "n038": {
+  "de": "Lateinamerika-Studien",
+  "en": "Latin American Studies"
+ },
+ "n039": {
+  "de": "Geowissenschaften allgemein",
+  "en": "Geosciences (general)"
+ },
+ "n04": {
+  "de": "Philosophie",
+  "en": "Philosophy"
+ },
+ "n040": {
+  "de": "Interdiszipl. Studien (Schwerpunkt Kunst, Kunstwissenschaft)",
+  "en": "Interdisc. Studies (special. in Art, Art Theory)"
+ },
+ "n042": {
+  "de": "Wirtschaftsrecht",
+  "en": "Business Law"
+ },
+ "n043": {
+  "de": "Neugriechisch",
+  "en": "Modern Greek"
+ },
+ "n044": {
+  "de": "Ost- und Südosteuropa-Studien",
+  "en": "East and Southeast European Studies"
+ },
+ "n048": {
+  "de": "Elektrotechnik/Elektronik",
+  "en": "Electrical Engineering/Electronics"
+ },
+ "n049": {
+  "de": "Interdisziplin. Studien (Schwerpunkt Naturwissenschaften)",
+  "en": "Interdisc. Studies (special. in Natural Sciences)"
+ },
+ "n05": {
+  "de": "Geschichte",
+  "en": "History"
+ },
+ "n050": {
+  "de": "Geographie/Erdkunde",
+  "en": "Geography"
+ },
+ "n052": {
+  "de": "Erziehungswissenschaft (Pädagogik)",
+  "en": "Educational Science (Pedagogy)"
+ },
+ "n053": {
+  "de": "Evang. Theologie, -Religionslehre",
+  "en": "Protestant Theology, Protestant Religious Education"
+ },
+ "n054": {
+  "de": "Film und Fernsehen",
+  "en": "Film and Television Studies"
+ },
+ "n055": {
+  "de": "Orientierungsstudium Gesellschaftswissenschaften",
+  "en": "Social sciences orientation studies"
+ },
+ "n056": {
+  "de": "Finno-Ugristik",
+  "en": "Finno-Ugrian Studies"
+ },
+ "n057": {
+  "de": "Luft- und Raumfahrttechnik",
+  "en": "Aeronautical and Aerospace Engineering"
+ },
+ "n058": {
+  "de": "Forstwissenschaft, -wirtschaft",
+  "en": "Forest Science, Forestry"
+ },
+ "n059": {
+  "de": "Französisch",
+  "en": "French"
+ },
+ "n06": {
+  "de": "Informations- und Bibliothekswissenschaften",
+  "en": "Information and Library Sciences"
+ },
+ "n060": {
+  "de": "Gartenbau",
+  "en": "Horticulture"
+ },
+ "n061": {
+  "de": "Meliorationswesen",
+  "en": "Ground Improvement"
+ },
+ "n064": {
+  "de": "Naturschutz",
+  "en": "Nature Conservation"
+ },
+ "n065": {
+  "de": "Geologie/Paläontologie",
+  "en": "Geology/Palaeontology"
+ },
+ "n066": {
+  "de": "Geophysik",
+  "en": "Geophysics"
+ },
+ "n067": {
+  "de": "Germanistik/Deutsch",
+  "en": "German Studies/German"
+ },
+ "n068": {
+  "de": "Geschichte",
+  "en": "History"
+ },
+ "n069": {
+  "de": "Graphikdesign/Kommunikationsgestaltung",
+  "en": "Graphic Design/Communication Design"
+ },
+ "n07": {
+  "de": "Allgemeine und vergleichende Literatur- und Sprachwissenschaft",
+  "en": "General and Comparative Literary Studies and Linguistics"
+ },
+ "n070": {
+  "de": "Griechisch",
+  "en": "Greek"
+ },
+ "n071": {
+  "de": "Haushalts- und Ernährungswissenschaft",
+  "en": "Domestic and Nutritional Sciences"
+ },
+ "n072": {
+  "de": "Interdisziplinäre Studien (Schwerpunkt Ingenieurwissenschaften)",
+  "en": "Interdisc. Studies (specialising in Engineering)"
+ },
+ "n073": {
+  "de": "Judaistik/Hebräisch ",
+  "en": "Judaic Studies/Hebrew"
+ },
+ "n074": {
+  "de": "Transport-/Fördertechnik",
+  "en": "Transport and Conveying Technology"
+ },
+ "n075": {
+  "de": "Holzwirtschaft",
+  "en": "Wood Science"
+ },
+ "n076": {
+  "de": "Hütten- und Gießereiwesen",
+  "en": "Metallurgy and Foundry"
+ },
+ "n077": {
+  "de": "Wasserwirtschaft",
+  "en": "Water Management"
+ },
+ "n078": {
+  "de": "Indologie",
+  "en": "Indology"
+ },
+ "n079": {
+  "de": "Informatik",
+  "en": "Computer Science"
+ },
+ "n08": {
+  "de": "Altphilologie (klassische Philologie), Neugriechisch",
+  "en": "Classical Philology, Modern Greek"
+ },
+ "n080": {
+  "de": "Instrumentalmusik",
+  "en": "Instrumental Music"
+ },
+ "n081": {
+  "de": "Iranistik",
+  "en": "Iranian Studies"
+ },
+ "n082": {
+  "de": "Holz-/Fasertechnik",
+  "en": "Wood and Fibre Technology"
+ },
+ "n083": {
+  "de": "Islamwissenschaft",
+  "en": "Islamic Studies"
+ },
+ "n084": {
+  "de": "Italienisch",
+  "en": "Italian"
+ },
+ "n085": {
+  "de": "Japanologie",
+  "en": "Japanese Studies"
+ },
+ "n086": {
+  "de": "Kath. Theologie, -Religionslehre",
+  "en": "Catholic Theology, Catholic Religious Education"
+ },
+ "n088": {
+  "de": "Optoelektronik",
+  "en": "Optoelectronics"
+ },
+ "n089": {
+  "de": "Verkehrsingenieurwesen",
+  "en": "Transport Engineering"
+ },
+ "n09": {
+  "de": "Germanistik (Deutsch, germanische Sprachen ohne Anglistik)",
+  "en": "German Studies (German, Germanic Languages excl. English)"
+ },
+ "n090": {
+  "de": "Lernbereich Geisteswissenschaften",
+  "en": "Area of study: Humanities"
+ },
+ "n091": {
+  "de": "Kunsterziehung",
+  "en": "Arts Education"
+ },
+ "n092": {
+  "de": "Kunstgeschichte, Kunstwissenschaft",
+  "en": "Art History, Art Theory"
+ },
+ "n093": {
+  "de": "Landespflege/Landschaftsgestaltung",
+  "en": "Land Management Engineering/Landscape Design"
+ },
+ "n094": {
+  "de": "Wasserbau",
+  "en": "Hydraulic Engineering"
+ },
+ "n095": {
+  "de": "Latein",
+  "en": "Latin"
+ },
+ "n096": {
+  "de": "Lebensmittelchemie",
+  "en": "Food Chemistry"
+ },
+ "n097": {
+  "de": "Lebensmitteltechnologie",
+  "en": "Food Technology"
+ },
+ "n098": {
+  "de": "Sportpädagogik/Sportpsychologie",
+  "en": "Sports Education/Sports Psychology"
+ },
+ "n1": {
+  "de": "Geisteswissenschaften",
+  "en": "Humanities"
+ },
+ "n10": {
+  "de": "Anglistik, Amerikanistik",
+  "en": "English Studies, American Studies"
+ },
+ "n101": {
+  "de": "Restaurierungskunde",
+  "en": "Restoration Studies"
+ },
+ "n102": {
+  "de": "Schauspiel",
+  "en": "Drama Studies"
+ },
+ "n103": {
+  "de": "Markscheidewesen",
+  "en": "Mine Surveying"
+ },
+ "n104": {
+  "de": "Maschinenbau/-wesen",
+  "en": "Mechanical Engineering"
+ },
+ "n105": {
+  "de": "Mathematik",
+  "en": "Mathematics"
+ },
+ "n106": {
+  "de": "Tanzpädagogik",
+  "en": "Dance Education"
+ },
+ "n107": {
+  "de": "Medizin (Allgemein-Medizin)",
+  "en": "Medicine (General Medicine)"
+ },
+ "n108": {
+  "de": "Metalltechnik",
+  "en": "Metals Technology"
+ },
+ "n11": {
+  "de": "Romanistik",
+  "en": "Romance Studies"
+ },
+ "n110": {
+  "de": "Meteorologie",
+  "en": "Meteorology"
+ },
+ "n111": {
+  "de": "Mineralogie",
+  "en": "Mineralogy"
+ },
+ "n113": {
+  "de": "Musikerziehung",
+  "en": "Music Education"
+ },
+ "n114": {
+  "de": "Musikwissenschaft/-geschichte",
+  "en": "Musicology/History of Music"
+ },
+ "n115": {
+  "de": "Grundschul-/Primarstufenpädagogik",
+  "en": "Primary School Education/Primary Level Education"
+ },
+ "n116": {
+  "de": "Textilgestaltung",
+  "en": "Textile Design"
+ },
+ "n117": {
+  "de": "Ausländerpädagogik",
+  "en": "Immigrant Education"
+ },
+ "n118": {
+  "de": "Technomathematik",
+  "en": "Technomathematics"
+ },
+ "n119": {
+  "de": "Niederländisch",
+  "en": "Dutch"
+ },
+ "n12": {
+  "de": "Slawistik, Baltistik, Finno-Ugristik",
+  "en": "Slavic, Baltic, Finno-Ugrian Studies"
+ },
+ "n120": {
+  "de": "Nordistik/Skandinavistik (Nord. Philologie, Einzelsprachen a.n.g.)",
+  "en": "Nordic/Scand. St. (Nord. Phil., ind. lang. n.e.c.)"
+ },
+ "n121": {
+  "de": "Medieninformatik",
+  "en": "Media Informatics"
+ },
+ "n122": {
+  "de": "Orientalistik, Altorientalistik",
+  "en": "Oriental Studies, Ancient Oriental Studies"
+ },
+ "n123": {
+  "de": "Ingenieurinformatik/Technische Informatik",
+  "en": "Computational Engineering/Technical Computer Science"
+ },
+ "n124": {
+  "de": "Ozeanographie",
+  "en": "Oceanography"
+ },
+ "n125": {
+  "de": "Agrarökonomie",
+  "en": "Agricultural Economics"
+ },
+ "n126": {
+  "de": "Pharmazie",
+  "en": "Pharmacy"
+ },
+ "n127": {
+  "de": "Philosophie",
+  "en": "Philosophy"
+ },
+ "n129": {
+  "de": "Politikwissenschaft/Politologie",
+  "en": "Political Science"
+ },
+ "n13": {
+  "de": "Sonstige Sprach- und Kulturwissenschaften",
+  "en": "Other linguistic and cultural studies"
+ },
+ "n130": {
+  "de": "Westslawisch (allgemein und a.n.g.)",
+  "en": "Western Slavic (general and n.e.c.)"
+ },
+ "n131": {
+  "de": "Portugiesisch",
+  "en": "Portuguese"
+ },
+ "n132": {
+  "de": "Psychologie",
+  "en": "Psychology"
+ },
+ "n134": {
+  "de": "Raumplanung",
+  "en": "Spatial Planning"
+ },
+ "n135": {
+  "de": "Rechtswissenschaft",
+  "en": "Law"
+ },
+ "n136": {
+  "de": "Religionswissenschaft",
+  "en": "Religious Studies"
+ },
+ "n137": {
+  "de": "Romanistik (Romanische Philologie, Einzelsprachen a.n.g.)",
+  "en": "Romance Studies (Rom. Phil., indiv. lang. n.e.c.)"
+ },
+ "n138": {
+  "de": "Agrarbiologie",
+  "en": "Agricultural Biology"
+ },
+ "n139": {
+  "de": "Russisch",
+  "en": "Russian"
+ },
+ "n14": {
+  "de": "Kulturwissenschaften i.e.S.",
+  "en": "Cultural Studies in the narrower sense"
+ },
+ "n140": {
+  "de": "Angewandte Systemwissenschaften",
+  "en": "Applied Systems Science"
+ },
+ "n141": {
+  "de": "Abfallwirtschaft",
+  "en": "Waste Management"
+ },
+ "n142": {
+  "de": "Schiffbau/Schiffstechnik",
+  "en": "Naval Architecture/Ship Technology"
+ },
+ "n143": {
+  "de": "Augenoptik",
+  "en": "Ophthalmic Optics"
+ },
+ "n144": {
+  "de": "Technische Kybernetik",
+  "en": "Technical Cybernetics"
+ },
+ "n145": {
+  "de": "Sinologie/Koreanistik",
+  "en": "Sinology/Korean Studies"
+ },
+ "n146": {
+  "de": "Slawistik (Slaw. Philologie)",
+  "en": "Slavic Studies (Slavic Philology)"
+ },
+ "n147": {
+  "de": "Sozialkunde",
+  "en": "Social Studies"
+ },
+ "n148": {
+  "de": "Sozialwissenschaften",
+  "en": "Social Sciences"
+ },
+ "n149": {
+  "de": "Soziologie",
+  "en": "Sociology"
+ },
+ "n150": {
+  "de": "Spanisch",
+  "en": "Spanish"
+ },
+ "n152": {
+  "de": "Allgemeine Sprachwissenschaft/Indogermanistik",
+  "en": "General Linguistics/Indo-European Studies"
+ },
+ "n153": {
+  "de": "Südslawisch (Bulgarisch, Serbokroatisch, Slowenisch usw.)",
+  "en": "South Slavic (Bulgar., Serbo-Croat., Slovene etc.)"
+ },
+ "n154": {
+  "de": "Lernbereich Gesellschaftslehre",
+  "en": "Area of study: Social Studies"
+ },
+ "n155": {
+  "de": "Theaterwissenschaft",
+  "en": "Theatre Studies"
+ },
+ "n156": {
+  "de": "Tiermedizin/Veterinärmedizin",
+  "en": "Veterinary Medicine"
+ },
+ "n157": {
+  "de": "Mikroelektronik",
+  "en": "Microelectronics"
+ },
+ "n158": {
+  "de": "Turkologie",
+  "en": "Turkish Studies"
+ },
+ "n159": {
+  "de": "Edelstein- und Schmuckdesign",
+  "en": "Gemstone and Jewellery Design"
+ },
+ "n160": {
+  "de": "Computerlinguistik",
+  "en": "Computer Linguistics"
+ },
+ "n161": {
+  "de": "Diakoniewissenschaft",
+  "en": "Pastoral Care Studies"
+ },
+ "n162": {
+  "de": "Caritaswissenschaft",
+  "en": "Caritas Science"
+ },
+ "n163": {
+  "de": "Rhythmik",
+  "en": "Rhythmics"
+ },
+ "n164": {
+  "de": "Jazz und Popularmusik",
+  "en": "Jazz and Popular Music"
+ },
+ "n165": {
+  "de": "Orchestermusik",
+  "en": "Orchestral Music"
+ },
+ "n166": {
+  "de": "Sportmanagement/Sportökonomie",
+  "en": "Sports Management/Sports Economics"
+ },
+ "n167": {
+  "de": "Europäische Wirtschaft",
+  "en": "European Economic Studies"
+ },
+ "n168": {
+  "de": "Justizvollzug",
+  "en": "Law Enforcement"
+ },
+ "n169": {
+  "de": "Ethik",
+  "en": "Ethics"
+ },
+ "n171": {
+  "de": "Vermessungswesen (Geodäsie)",
+  "en": "Surveying (Geodesy)"
+ },
+ "n172": {
+  "de": "Verwaltungswissenschaft/-wesen",
+  "en": "Administrative Science/Public Administration"
+ },
+ "n173": {
+  "de": "Ethnologie",
+  "en": "Ethnology"
+ },
+ "n174": {
+  "de": "Volkskunde",
+  "en": "Folklore"
+ },
+ "n175": {
+  "de": "Volkswirtschaftslehre",
+  "en": "Economics"
+ },
+ "n176": {
+  "de": "Werkerziehung",
+  "en": "Handicrafts Education"
+ },
+ "n177": {
+  "de": "Werkstofftechnik",
+  "en": "Materials Technology"
+ },
+ "n178": {
+  "de": "Wirtschafts-/Sozialgeographie",
+  "en": "Economic/Social Geography"
+ },
+ "n179": {
+  "de": "Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt",
+  "en": "Business Engineering specialising in Economics"
+ },
+ "n18": {
+  "de": "Islamische Studien/Islamische Theologie",
+  "en": "Islamic Studies/Islamic Theology"
+ },
+ "n180": {
+  "de": "Kaukasistik",
+  "en": "Caucasian Studies"
+ },
+ "n181": {
+  "de": "Wirtschaftspädagogik",
+  "en": "Business and Economics Education"
+ },
+ "n182": {
+  "de": "Intern. Betriebswirtschaft/Management",
+  "en": "International Business Studies/Management"
+ },
+ "n183": {
+  "de": "Wirtschafts-/Sozialgeschichte",
+  "en": "Economic/Social History"
+ },
+ "n184": {
+  "de": "Wirtschaftswissenschaften",
+  "en": "Business and Economics"
+ },
+ "n185": {
+  "de": "Zahnmedizin",
+  "en": "Dentistry"
+ },
+ "n186": {
+  "de": "Lernbereich Naturwissenschaft/Sachunterricht",
+  "en": "Area of study: Natural Sciences/General Studies"
+ },
+ "n187": {
+  "de": "Asiatische Sprachen und Kulturen/Asienwissenschaften",
+  "en": "Asian Languages and Cultures/Asian Studies"
+ },
+ "n188": {
+  "de": "Allgemeine Literaturwissenschaft",
+  "en": "General Literary Studies"
+ },
+ "n189": {
+  "de": "Niederdeutsch",
+  "en": "Low German"
+ },
+ "n19": {
+  "de": "Medienwissenschaft",
+  "en": "Media Science"
+ },
+ "n190": {
+  "de": "Sonderpädagogik",
+  "en": "Special Needs Education"
+ },
+ "n191": {
+  "de": "Komposition",
+  "en": "Composition"
+ },
+ "n192": {
+  "de": "Dirigieren",
+  "en": "Conducting"
+ },
+ "n193": {
+  "de": "Kirchenmusik",
+  "en": "Church Music"
+ },
+ "n194": {
+  "de": "Tonmeister",
+  "en": "Sound Engineering"
+ },
+ "n195": {
+  "de": "Gesundheitspädagogik",
+  "en": "Health Education"
+ },
+ "n197": {
+  "de": "Holzbau",
+  "en": "Timber Construction"
+ },
+ "n199": {
+  "de": "Lernbereich Technik",
+  "en": "Area of study: Technology"
+ },
+ "n2": {
+  "de": "Sport",
+  "en": "Sports"
+ },
+ "n200": {
+  "de": "Computer- und Kommunikationstechniken",
+  "en": "Computer and Communication Technology"
+ },
+ "n201": {
+  "de": "Werken (technisch)/Technologie",
+  "en": "Handicrafts (technical)/Technology"
+ },
+ "n202": {
+  "de": "Fertigungs-/Produktionstechnik",
+  "en": "Manufacturing Technology/Production Engineering"
+ },
+ "n203": {
+  "de": "Industriedesign/Produktgestaltung",
+  "en": "Industrial Design/Product Design"
+ },
+ "n204": {
+  "de": "Malerei",
+  "en": "Painting"
+ },
+ "n205": {
+  "de": "Bildhauerei/Plastik",
+  "en": "Sculpting/Statuary Art"
+ },
+ "n206": {
+  "de": "Polnisch",
+  "en": "Polish"
+ },
+ "n207": {
+  "de": "Sorabistik",
+  "en": "Sorbian Studies"
+ },
+ "n208": {
+  "de": "Soziale Arbeit",
+  "en": "Social Work"
+ },
+ "n209": {
+  "de": "Tschechisch",
+  "en": "Czech"
+ },
+ "n210": {
+  "de": "Verkehrswirtschaft",
+  "en": "Transport Economics"
+ },
+ "n211": {
+  "de": "Energieverfahrenstechnik",
+  "en": "Energy Process Engineering"
+ },
+ "n212": {
+  "de": "Feinwerktechnik",
+  "en": "Precision Engineering"
+ },
+ "n213": {
+  "de": "Versorgungstechnik",
+  "en": "Supply Technology"
+ },
+ "n215": {
+  "de": "Gesundheitstechnik",
+  "en": "Health Technology"
+ },
+ "n216": {
+  "de": "Glastechnik/Keramik",
+  "en": "Glass Technology/Ceramics"
+ },
+ "n219": {
+  "de": "Kunststofftechnik",
+  "en": "Plastics Technology"
+ },
+ "n22": {
+  "de": "Sport, Sportwissenschaft",
+  "en": "Sports, Sports Science"
+ },
+ "n220": {
+  "de": "Milch- und Molkereiwirtschaft",
+  "en": "Dairy Farming"
+ },
+ "n221": {
+  "de": "Bioinformatik",
+  "en": "Bioinformatics"
+ },
+ "n222": {
+  "de": "Kommunikations- und Informationstechnik",
+  "en": "Communication Technology, Information Engineering"
+ },
+ "n223": {
+  "de": "Nautik/Seefahrt",
+  "en": "Nautical Science/Maritime Studies"
+ },
+ "n224": {
+  "de": "Physikalische Technik/Mechanische Verfahrenstechnik",
+  "en": "Engineering Physics/Mechanical Process Engineering"
+ },
+ "n225": {
+  "de": "Textil- und Bekleidungstechnik/-gewerbe",
+  "en": "Textile and Clothing Technology/Industry"
+ },
+ "n226": {
+  "de": "Verfahrenstechnik",
+  "en": "Process Engineering"
+ },
+ "n227": {
+  "de": "Weinbau und Kellerwirtschaft",
+  "en": "Viticulture and Oenology"
+ },
+ "n23": {
+  "de": "Rechts-, Wirtschafts- und Sozialwissenschaften allgemein",
+  "en": "Law, Economics and Social Sciences (general)"
+ },
+ "n230": {
+  "de": "Gesang",
+  "en": "Singing"
+ },
+ "n231": {
+  "de": "Druck- und Reproduktionstechnik",
+  "en": "Printing and Reproduction Technology"
+ },
+ "n232": {
+  "de": "Gesundheitswissenschaften/-management",
+  "en": "Health Science/Health Management"
+ },
+ "n233": {
+  "de": "Nichtärztliche Heilberufe/Therapien",
+  "en": "Non-medical Healthcare Professions/Therapies"
+ },
+ "n234": {
+  "de": "Pflegewissenschaft/-management",
+  "en": "Nursing Science/Nursing Management"
+ },
+ "n235": {
+  "de": "Fahrzeugtechnik",
+  "en": "Automotive Technology"
+ },
+ "n237": {
+  "de": "Mathematische Statistik/Wahrscheinlichkeitsrechnung",
+  "en": "Mathematical statistics/probability calculation"
+ },
+ "n24": {
+  "de": "Regionalwissenschaften",
+  "en": "Regional Studies"
+ },
+ "n241": {
+  "de": "Kerntechnik/Kernverfahrenstechnik",
+  "en": "Nuclear technology/nuclear process engineering"
+ },
+ "n242": {
+  "de": "Innenarchitektur",
+  "en": "Interior Architecture"
+ },
+ "n245": {
+  "de": "Sozialpädagogik",
+  "en": "Social Pedagogy"
+ },
+ "n247": {
+  "de": "Medizinische Informatik",
+  "en": "Medical Informatics"
+ },
+ "n25": {
+  "de": "Politikwissenschaft",
+  "en": "Political Science"
+ },
+ "n253": {
+  "de": "Sozialwesen",
+  "en": "Applied Social Science"
+ },
+ "n254": {
+  "de": "Sachunterricht (einschl. Schulgarten)",
+  "en": "General Studies (including School Garden)"
+ },
+ "n255": {
+  "de": "Archivwesen",
+  "en": "Archive Studies"
+ },
+ "n256": {
+  "de": "Rechtspflege",
+  "en": "Administration of Justice"
+ },
+ "n257": {
+  "de": "Arbeits- und Berufsberatung",
+  "en": "Occupational Guidance and Career Counselling"
+ },
+ "n258": {
+  "de": "Arbeitsverwaltung",
+  "en": "Labour Administration"
+ },
+ "n259": {
+  "de": "Auswärtige Angelegenheiten",
+  "en": "Foreign Affairs Administration"
+ },
+ "n26": {
+  "de": "Sozialwissenschaften/Soziologie",
+  "en": "Social Sciences/Sociology"
+ },
+ "n260": {
+  "de": "Bundeswehrverwaltung",
+  "en": "Armed Forces Administration"
+ },
+ "n261": {
+  "de": "Innere Verwaltung",
+  "en": "Internal Administration"
+ },
+ "n262": {
+  "de": "Bibliothekswesen",
+  "en": "Librarianship"
+ },
+ "n263": {
+  "de": "Polizei/Verfassungsschutz",
+  "en": "Police/Protection of the Constitution"
+ },
+ "n264": {
+  "de": "Sozialversicherung",
+  "en": "Social Security Administration"
+ },
+ "n265": {
+  "de": "Bankwesen",
+  "en": "Banking"
+ },
+ "n266": {
+  "de": "Finanzverwaltung",
+  "en": "Financial Administration"
+ },
+ "n268": {
+  "de": "Verkehrswesen",
+  "en": "Transportation Systems"
+ },
+ "n269": {
+  "de": "Zoll- und Steuerverwaltung",
+  "en": "Customs and Tax Administration"
+ },
+ "n27": {
+  "de": "Sozialwesen",
+  "en": "Applied Social Science"
+ },
+ "n270": {
+  "de": "Berufs- und Wirtschaftspädagogik",
+  "en": "Vocational, Business and Economics Education"
+ },
+ "n271": {
+  "de": "Deutsch als Fremdsprache oder als Zweitsprache",
+  "en": "German as a Foreign or Second Language"
+ },
+ "n272": {
+  "de": "Alte Geschichte",
+  "en": "Ancient History"
+ },
+ "n273": {
+  "de": "Mittlere und neuere Geschichte",
+  "en": "Medieval and Modern History"
+ },
+ "n274": {
+  "de": "Tourismuswirtschaft",
+  "en": "Tourism Management"
+ },
+ "n275": {
+  "de": "Wissenschaftsgeschichte/Technikgeschichte",
+  "en": "History of Science/History of Technology"
+ },
+ "n276": {
+  "de": "Wirtschaftsmathematik",
+  "en": "Business Mathematics"
+ },
+ "n277": {
+  "de": "Wirtschaftsinformatik",
+  "en": "Business Informatics"
+ },
+ "n28": {
+  "de": "Rechtswissenschaften",
+  "en": "Law"
+ },
+ "n280": {
+  "de": "Kartographie",
+  "en": "Cartography"
+ },
+ "n282": {
+  "de": "Biotechnologie",
+  "en": "Biotechnology"
+ },
+ "n283": {
+  "de": "Landschaftsökologie/Biogeographie",
+  "en": "Landscape Ecology/Biogeography"
+ },
+ "n284": {
+  "de": "Angewandte Sprachwissenschaft",
+  "en": "Applied Linguistics"
+ },
+ "n286": {
+  "de": "Mikrosystemtechnik",
+  "en": "Microsystems Technology"
+ },
+ "n287": {
+  "de": "Neue Medien",
+  "en": "New Media"
+ },
+ "n29": {
+  "de": "Verwaltungswissenschaften",
+  "en": "Administrative Sciences"
+ },
+ "n292": {
+  "de": "Islamische Studien/Islamische Theologie",
+  "en": "Islamic Studies/Islamic Theology"
+ },
+ "n294": {
+  "de": "Materialwissenschaft",
+  "en": "Materials Science"
+ },
+ "n3": {
+  "de": "Rechts-, Wirtschafts- und Sozialwissenschaften",
+  "en": "Law, Economics and Social Sciences"
+ },
+ "n30": {
+  "de": "Wirtschaftswissenschaften",
+  "en": "Business and Economics"
+ },
+ "n300": {
+  "de": "Biomedizin",
+  "en": "Biomedicine"
+ },
+ "n302": {
+  "de": "Medienwissenschaft",
+  "en": "Media Science"
+ },
+ "n303": {
+  "de": "Kommunikationswissenschaft/Publizistik",
+  "en": "Communication Science/Journalism"
+ },
+ "n304": {
+  "de": "Medienwirtschaft/Medienmanagement",
+  "en": "Media Economics/Media Management"
+ },
+ "n305": {
+  "de": "Medientechnik",
+  "en": "Media Technology"
+ },
+ "n31": {
+  "de": "Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt",
+  "en": "Business Engineering specialising in Economics"
+ },
+ "n310": {
+  "de": "Regenerative Energien",
+  "en": "Renewable Energy"
+ },
+ "n312": {
+  "de": "Statistik",
+  "en": "Statistics"
+ },
+ "n316": {
+  "de": "Elektrische Energietechnik",
+  "en": "Electrical Power Engineering"
+ },
+ "n32": {
+  "de": "Psychologie",
+  "en": "Psychology"
+ },
+ "n320": {
+  "de": "Ernährungswissenschaft",
+  "en": "Nutritional Science"
+ },
+ "n321": {
+  "de": "Erwachsenenbildung und außerschulische Jugendbildung",
+  "en": "Adult Education and Extracurricular Youth Educat."
+ },
+ "n33": {
+  "de": "Erziehungswissenschaften",
+  "en": "Educational Sciences"
+ },
+ "n333": {
+  "de": "Haushaltswissenschaft",
+  "en": "Domestic Science"
+ },
+ "n34": {
+  "de": "Kommunikationswissenschaft/Publizistik",
+  "en": "Communication Science/Journalism"
+ },
+ "n353": {
+  "de": "Pflanzenproduktion",
+  "en": "Plant Production"
+ },
+ "n36": {
+  "de": "Mathematik, Naturwissenschaften allgemein",
+  "en": "Mathematics, Natural Sciences (general)"
+ },
+ "n361": {
+  "de": "Schulpädagogik",
+  "en": "School Pedagogy"
+ },
+ "n365": {
+  "de": "Pädagogik der frühen Kindheit",
+  "en": "Early Childhood Education"
+ },
+ "n37": {
+  "de": "Mathematik",
+  "en": "Mathematics"
+ },
+ "n370": {
+  "de": "Wirtschaftsingenieurwesen mit ingenieurwissenschaftlichem Schwerpunkt",
+  "en": "Business Engineering specialising in Engineering Sciences"
+ },
+ "n371": {
+  "de": "Tierproduktion",
+  "en": "Animal Production"
+ },
+ "n380": {
+  "de": "Mechatronik",
+  "en": "Mechatronics"
+ },
+ "n385": {
+  "de": "Geoökologie",
+  "en": "Geoecology"
+ },
+ "n39": {
+  "de": "Physik, Astronomie",
+  "en": "Physics, Astronomy"
+ },
+ "n390": {
+  "de": "Archäometrie (Ingenieurarchäologie)",
+  "en": "Archaeometry (Archaeological Engineering)"
+ },
+ "n4": {
+  "de": "Mathematik, Naturwissenschaften",
+  "en": "Mathematics, Natural Sciences"
+ },
+ "n40": {
+  "de": "Chemie",
+  "en": "Chemistry"
+ },
+ "n41": {
+  "de": "Pharmazie",
+  "en": "Pharmacy"
+ },
+ "n42": {
+  "de": "Biologie",
+  "en": "Biology"
+ },
+ "n429": {
+  "de": "Stahlbau",
+  "en": "Steel Construction"
+ },
+ "n43": {
+  "de": "Geowissenschaften (ohne Geographie)",
+  "en": "Geosciences (excl. Geography)"
+ },
+ "n44": {
+  "de": "Geographie",
+  "en": "Geography"
+ },
+ "n457": {
+  "de": "Umwelttechnik (einschl. Recycling)",
+  "en": "Environmental Technology (including Recycling)"
+ },
+ "n458": {
+  "de": "Umweltschutz",
+  "en": "Environmental Protection"
+ },
+ "n464": {
+  "de": "Facility Management",
+  "en": "Facility Management"
+ },
+ "n48": {
+  "de": "Gesundheitswissenschaften allgemein",
+  "en": "Health Sciences (general)"
+ },
+ "n49": {
+  "de": "Humanmedizin (ohne Zahnmedizin)",
+  "en": "Human Medicine (excl. Dentistry)"
+ },
+ "n5": {
+  "de": "Humanmedizin/Gesundheitswissenschaften",
+  "en": "Human Medicine / Health Sciences"
+ },
+ "n50": {
+  "de": "Zahnmedizin",
+  "en": "Dentistry"
+ },
+ "n51": {
+  "de": "Veterinärmedizin",
+  "en": "Veterinary Medicine"
+ },
+ "n544": {
+  "de": "Evang. Religionspädagogik, kirchliche Bildungsarbeit",
+  "en": "Protestant Religious Pedagogy, Church Educational Work"
+ },
+ "n545": {
+  "de": "Kath. Religionspädagogik, kirchliche Bildungsarbeit",
+  "en": "Catholic Religious Pedagogy, Church Educational Work"
+ },
+ "n548": {
+  "de": "Ur- und Frühgeschichte",
+  "en": "Prehistory and Early History"
+ },
+ "n57": {
+  "de": "Landespflege, Umweltgestaltung",
+  "en": "Land Management Engineering, Environmental Design"
+ },
+ "n58": {
+  "de": "Agrarwissenschaften, Lebensmittel- und Getränketechnologie",
+  "en": "Agricultural Science, Food- and Beverage Technology"
+ },
+ "n59": {
+  "de": "Forstwissenschaft, Holzwirtschaft",
+  "en": "Forestry, Wood Science"
+ },
+ "n60": {
+  "de": "Ernährungs- und Haushaltswissenschaften",
+  "en": "Nutritional and Domestic Science"
+ },
+ "n61": {
+  "de": "Ingenieurwesen allgemein",
+  "en": "Engineering (general)"
+ },
+ "n62": {
+  "de": "Bergbau, Hüttenwesen",
+  "en": "Mining, Metallurgy"
+ },
+ "n63": {
+  "de": "Maschinenbau/Verfahrenstechnik",
+  "en": "Mechanical Engineering / Process Engineering"
+ },
+ "n64": {
+  "de": "Elektrotechnik und Informationstechnik",
+  "en": "Electrical Engineering and Information Engineering"
+ },
+ "n65": {
+  "de": "Verkehrstechnik, Nautik",
+  "en": "Traffic Engineering, Nautical Science"
+ },
+ "n66": {
+  "de": "Architektur, Innenarchitektur",
+  "en": "Architecture, Interior Architecture "
+ },
+ "n67": {
+  "de": "Raumplanung",
+  "en": "Spatial Planning"
+ },
+ "n68": {
+  "de": "Bauingenieurwesen",
+  "en": "Civil Engineering"
+ },
+ "n69": {
+  "de": "Vermessungswesen",
+  "en": "Surveying"
+ },
+ "n7": {
+  "de": "Agrar-, Forst- und Ernährungswissenschaften, Veterinärmedizin",
+  "en": "Agricultural, Forest and Nutritional Sciences, Veterinary medicine"
+ },
+ "n70": {
+  "de": "Wirtschaftsingenieurwesen mit ingenieurwissenschaftlichem Schwerpunkt",
+  "en": "Business Engineering specialising in Engineering Sciences"
+ },
+ "n71": {
+  "de": "Informatik",
+  "en": "Computer Science"
+ },
+ "n72": {
+  "de": "Materialwissenschaft und Werkstofftechnik",
+  "en": "Materials Science and Materials Engineering"
+ },
+ "n74": {
+  "de": "Kunst, Kunstwissenschaft allgemein",
+  "en": "Art, Art Theory (general)"
+ },
+ "n75": {
+  "de": "Bildende Kunst",
+  "en": "Fine Arts"
+ },
+ "n76": {
+  "de": "Gestaltung",
+  "en": "Design"
+ },
+ "n77": {
+  "de": "Darstellende Kunst, Film und Fernsehen, Theaterwissenschaft",
+  "en": "Performing Arts, Film and Television Studies, Theatre Studies"
+ },
+ "n78": {
+  "de": "Musik, Musikwissenschaft",
+  "en": "Music, Musicology"
+ },
+ "n8": {
+  "de": "Ingenieurwissenschaften",
+  "en": "Engineering Sciences"
+ },
+ "n9": {
+  "de": "Kunst, Kunstwissenschaft",
+  "en": "Art, Art Theory"
+ }
+}

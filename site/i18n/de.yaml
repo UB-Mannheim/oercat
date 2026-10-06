@@ -1,0 +1,59 @@
+# UI strings (German). Keys starting with facet_ are filter / field titles and
+# must exist for every key in oercat/schema.py FACETS.
+header_title: AiDaLi · OERcat
+tagline: Eine wachsende Sammlung offener Bildungsressourcen (OER) zu Künstlicher Intelligenz und Datenkompetenz. Entstanden im Projekt AiDaLi der Universität Mannheim.
+search_label: Katalog durchsuchen
+search_placeholder: Titel, Schlagwort, Beschreibung, Person …
+stats_oer: OER
+stats_languages: Sprachen
+stats_disciplines: Fachgebiete
+stats_keywords: Schlagwörter
+stats_updated: Stand
+filters: Filter
+close: Schließen
+reset_filters: Alle Filter zurücksetzen
+remove_filter: Filter entfernen
+sort_label: Sortieren
+sort_relevance: Relevanz
+sort_added: Zuletzt hinzugefügt
+sort_newest: Neueste zuerst
+sort_title: Titel A–Z
+results_one: "{n} Ressource"
+results_other: "{n} Ressourcen"
+no_results: Keine Treffer. Versuchen Sie einen anderen Suchbegriff oder entfernen Sie Filter.
+loading: Katalog wird geladen …
+load_more: Weitere anzeigen
+show_more: "Alle {n} anzeigen"
+show_less: Weniger anzeigen
+filter_values: Werte filtern …
+year: Erscheinungsjahr
+year_from: von
+year_to: bis
+any: beliebig
+et_al: u. a.
+open_resource: Zur Ressource
+back_to_results: Zurück zu den Ergebnissen
+all_resources: Alle Ressourcen als Liste
+noscript: Die Suche benötigt JavaScript.
+teaches: Lernziele
+links: Links
+date: Veröffentlicht
+accessibility_note: Hinweise zur Barrierefreiheit
+catalogue_no: Katalognummer
+role_S: unterstützend
+role_R: empfehlend
+orcid: ORCID-Profil
+footer_data: Metadaten nach dem DALIA Interchange Format 1.4
+facet_type: Ressourcentyp
+facet_discipline: Fachgebiet
+facet_language: Sprache
+facet_level: Kompetenzniveau
+facet_audience: Zielgruppe
+facet_media: Medientyp
+facet_license: Lizenz
+facet_community: Community
+facet_publisher: Herausgeber
+facet_format: Dateiformat
+facet_keywords: Schlagwörter
+facet_authors: Autor:innen
+facet_accessibility: Barrierefreiheit
