@@ -82,7 +82,7 @@ body.has-page-bg::before {
   aspect-ratio: 8000 / 3404;
   min-height: 320px;
   background: var(--page-bg-image) center top / cover no-repeat;
-  opacity: .1;
+  opacity: .05;
   pointer-events: none;
 }
 
