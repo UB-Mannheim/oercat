@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.13"
 
 [[package]]
@@ -51,26 +51,26 @@ name = "oercat"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
+    { name = "hugo" },
     { name = "openpyxl" },
     { name = "pyyaml" },
 ]
 
 [package.dev-dependencies]
 dev = [
-    { name = "hugo" },
     { name = "pytest" },
     { name = "ruff" },
 ]
 
 [package.metadata]
 requires-dist = [
+    { name = "hugo", specifier = ">=0.167.0" },
     { name = "openpyxl", specifier = ">=3.1.5" },
     { name = "pyyaml", specifier = ">=6.0.3" },
 ]
 
 [package.metadata.requires-dev]
 dev = [
-    { name = "hugo", specifier = ">=0.167.0" },
     { name = "pytest", specifier = ">=9.1.1" },
     { name = "ruff", specifier = ">=0.16.10" },
 ]

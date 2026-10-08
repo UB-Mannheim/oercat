@@ -1,5 +1,3 @@
-"""Command line interface: ``uv run oercat <command>``."""
-
 import argparse
 import shutil
 import subprocess
@@ -10,7 +8,7 @@ from oercat import export, fetch_vocab
 from oercat.reader import read_workbook
 from oercat.validate import ERROR, process, render_report
 
-DEFAULT_XLSX = Path("data/oer_catalogue.xlsx")
+DEFAULT_XLSX = Path("data/AiDaLi_OER_Katalog.xlsx")
 DEFAULT_SITE = Path("site")
 
 

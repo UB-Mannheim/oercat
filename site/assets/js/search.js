@@ -12,7 +12,7 @@ const cfg = JSON.parse(document.getElementById("oer-config").textContent);
 const PAGE_SIZE = 24;
 const FACET_PREVIEW = 8; // values shown per filter group before "show all"
 const FACET_MAX = 60; // cap for very large groups; use the group's search box instead
-const DEFAULT_OPEN = 4; // first n filter groups are expanded
+const DEFAULT_OPEN = ["type"]; // filter groups expanded on page load
 
 const $ = (id) => document.getElementById(id);
 const els = {
@@ -33,7 +33,7 @@ const els = {
 const state = { q: "", filters: {}, yearFrom: "", yearTo: "", sort: "", shown: PAGE_SIZE };
 /** View-only state (not in the URL). */
 const ui = {
-  open: new Set(cfg.facets.slice(0, DEFAULT_OPEN).map((f) => f.key)),
+  open: new Set(DEFAULT_OPEN),
   expanded: new Set(),
   facetQuery: {},
 };
@@ -270,7 +270,7 @@ function renderActiveFilters() {
 
 function renderCard(doc, terms) {
   const authors =
-    doc.authors.length > 3 ? `${doc.authors.slice(0, 3).join("; ")} ${t("et_al")}` : doc.authors.join("; ");
+    doc.authors.length > 3 ? `${doc.authors.slice(0, 3).join(", ")} ${t("et_al")}` : doc.authors.join(", ");
   const badges = [
     ...doc.type.map((v) => `<li class="badge badge-type">${esc(label("type", v))}</li>`),
     ...doc.level.map((v) => `<li class="badge">${esc(label("level", v))}</li>`),
@@ -296,7 +296,7 @@ function render() {
   const terms = new Map(hits?.map((h) => [h.id, h.terms]) ?? []);
 
   let results = pool.filter((doc) => matches(doc));
-  const sort = state.sort && (state.sort !== "relevance" || hits) ? state.sort : hits ? "relevance" : "added";
+  const sort = state.sort && (state.sort !== "relevance" || hits) ? state.sort : hits ? "relevance" : "newest";
   if (SORTS[sort]) results = [...results].sort(SORTS[sort]);
   els.sort.value = sort;
 
@@ -420,6 +420,7 @@ function syncControls() {
   els.q.value = state.q;
   els.yearFrom.value = state.yearFrom;
   els.yearTo.value = state.yearTo;
+  if (state.yearFrom || state.yearTo) els.yearFrom.closest("details").open = true;
 }
 
 async function init() {

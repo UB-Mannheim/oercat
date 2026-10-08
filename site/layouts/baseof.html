@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="{{ .Language.Lang }}">
 <head>{{ partial "head.html" . }}</head>
-<body>
+<body{{ if .IsHome }} class="has-page-bg"{{ end }}>
   <a class="skip-link" href="#main">{{ if eq .Language.Lang "de" }}Zum Inhalt{{ else }}Skip to content{{ end }}</a>
   {{ partial "header.html" . }}
   <main id="main" class="container">

@@ -9,7 +9,7 @@
     <h1>{{ $o.title }}</h1>
     {{ with $o.authors }}
       <p class="detail-authors">
-        {{ range $i, $name := . }}{{ if $i }}; {{ end }}{{ $name }}{{ with index $o.author_links $name }}
+        {{ range $i, $name := . }}{{ if $i }}, {{ end }}{{ $name }}{{ with index $o.author_links $name }}
           <a class="orcid" href="{{ . }}" title="{{ i18n "orcid" }}" aria-label="{{ i18n "orcid" }}: {{ $name }}">iD</a>{{ end }}{{ end }}
       </p>
     {{ end }}

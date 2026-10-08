@@ -10,6 +10,7 @@ requires-python = ">=3.13"
 dependencies = [
     "openpyxl>=3.1.5",
     "pyyaml>=6.0.3",
+    "hugo>=0.167.0",
 ]
 
 [project.scripts]
@@ -36,7 +37,6 @@ ignore = ["BLE001"]
 
 [dependency-groups]
 dev = [
-    "hugo>=0.167.0",
     "pytest>=9.1.1",
     "ruff>=0.16.10",
 ]

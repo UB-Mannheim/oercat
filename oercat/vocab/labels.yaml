@@ -10,7 +10,7 @@ de:
     Book: Buch
     CaseStudy: Fallstudie
     CodeNotebook: Code-Notebook
-    Cookbook: Kochbuch
+    Cookbook: Cookbook
     Course: Kurs
     Data: Daten
     Diagram: Diagramm
@@ -48,8 +48,8 @@ de:
     Image: Bild
     Multipart: Mehrteilig
   level:
-    Novice: Einsteiger
-    AdvancedBeginner: Fortgeschrittene Anfänger
+    Novice: Anfänger
+    AdvancedBeginner: Fortgeschrittener Anfänger
     Competent: Kompetent
     Proficient: Erfahren
     Expert: Expert:in
@@ -59,7 +59,7 @@ de:
     Master'sStudent: Master-Studierende
     PhDStudent: Promovierende
     DataSteward: Data Stewards
-    TeacherSchool: Lehrkräfte (Schule)
+    TeacherSchool: Lehrende (Schule)
     TeacherHigherEducation: Lehrende (Hochschule)
     Researcher: Forschende
     ContentProvider: Content-Anbieter

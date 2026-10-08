@@ -1,10 +1,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}</title>
-<meta name="description" content="{{ with .Params.oer }}{{ .description | plainify | truncate 160 }}{{ else }}{{ i18n "tagline" }}{{ end }}">
+<meta name="description" content="{{ with .Params.oer }}{{ .description | plainify | truncate 160 }}{{ else }}{{ i18n "tagline" | markdownify | plainify }}{{ end }}">
 {{ range .AllTranslations }}
 <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
 {{ end }}
+{{ if .IsHome }}{{ with resources.Get "img/background_logo.jpg" }}
+{{ $bg := .Resize "2400x q80" }}
+<style>:root { --page-bg-image: url("{{ $bg.RelPermalink }}"); }</style>
+{{ end }}{{ end }}
 {{ with resources.Get "css/main.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
 {{ end }}

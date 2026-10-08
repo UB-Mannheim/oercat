@@ -1,5 +1,3 @@
-"""Turn raw workbook rows into clean records and collect data-quality issues."""
-
 from collections import Counter
 from dataclasses import dataclass
 

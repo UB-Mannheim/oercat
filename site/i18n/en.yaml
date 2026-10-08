@@ -1,9 +1,9 @@
 # UI strings (English). Keys starting with facet_ are filter / field titles and
 # must exist for every key in oercat/schema.py FACETS.
 header_title: AiDaLi · OERcat
-tagline: A growing collection of open educational resources (OER) on artificial intelligence and data literacy.
+tagline: A collection of open educational resources (OER) on artificial intelligence and data literacy. Compiled as part of the [AiDaLi project](https://www.uni-mannheim.de/en/teaching-and-learning-center-zll/projects/aidali-durch-oer-produktion-zu-ai-und-data-literacy/) at the [University of Mannheim](https://www.uni-mannheim.de/en).
 search_label: Search the catalogue
-search_placeholder: Title, keyword, description, person …
+search_placeholder: Start your search ...
 stats_oer: OER
 stats_languages: languages
 stats_disciplines: disciplines
@@ -43,7 +43,7 @@ catalogue_no: Catalogue number
 role_S: supporting
 role_R: recommending
 orcid: ORCID profile
-footer_data: Metadata following the DALIA Interchange Format 1.4
+footer_data: Metadata following the [DALIA Interchange Format 1.4](https://doi.org/10.5281/zenodo.11521028)
 facet_type: Resource type
 facet_discipline: Discipline
 facet_language: Language

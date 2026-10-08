@@ -41,16 +41,15 @@ COLUMNS: list[Column] = [
 FACETS: list[str] = [
     "type",
     "discipline",
-    "language",
+    "keywords",
     "level",
     "audience",
     "media",
+    "language",
     "license",
     "community",
     "publisher",
     "format",
-    "keywords",
-    "authors",
     "accessibility",
 ]
 

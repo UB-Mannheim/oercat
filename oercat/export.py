@@ -18,7 +18,9 @@ LARGE_FACET = 15  # facets with more values get a search box in the sidebar
 
 
 def unify_keywords(records: list[dict]) -> None:
-    """Merge spelling variants ("Data literacy" / "Data Literacy") to the most frequent one."""
+    """
+    Merge spelling variants ("Data literacy" / "Data Literacy") to the most frequent one.
+    """
     spellings: dict[str, Counter] = {}
     for r in records:
         for kw in r["keywords"]:
@@ -34,8 +36,10 @@ def unify_keywords(records: list[dict]) -> None:
 
 
 def unify_disciplines(records: list[dict]) -> None:
-    """Codes with the same label (study area n71 and subject n079 are both "Informatik")
-    become one filter value: the most frequent code."""
+    """
+    Codes with the same label (study area n71 and subject n079 are both "Informatik")
+    become one filter value: the most frequent code.
+    """
     counts = Counter(code for r in records for code in r["discipline"])
     by_label: dict[str, str] = {}
     for code, _ in counts.most_common():

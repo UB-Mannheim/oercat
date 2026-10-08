@@ -135,16 +135,25 @@ def parse_keyword(raw: str, ctx: Context) -> list[str]:
 
 def parse_author(value: str) -> dict:
     """``Surname, Prename : {https://orcid.org/…}`` → ``{name, url, org}``."""
+    def reorder_name(name: str) -> str:
+        # "Surname, Prename" → "Prename Surname"; names without a comma
+        # (e.g. organisations like "The Carpentries") are returned unchanged.
+        surname, sep, prename = name.partition(",")
+        if not sep or not prename.strip():
+            return surname.strip()
+        return f"{prename.strip()} {surname.strip()}"
+
     value = re.sub(r"\s*:\s*null\s*$", "", value)
     m = AUTHOR_RE.match(value)
     if not m:
-        return {"name": value.strip(), "url": None, "org": False}
+        return {"name": reorder_name(value.strip()), "url": None, "org": False}
     ident = m["ident"].strip()
     org = ident.startswith("organization")
     url = ident.removeprefix("organization").strip() or None
     if url and not url.startswith("http"):
         url = None
-    return {"name": m["name"].strip(), "url": url, "org": org}
+    name = m["name"].strip() if org else reorder_name(m["name"].strip())
+    return {"name": name, "url": url, "org": org}
 
 
 def parse_authors(raw: str, ctx: Context) -> list[str]:

@@ -13,7 +13,7 @@ enableRobotsTXT = false
 [languages.en]
   weight = 2
   label = "English"
-  title = "OER-Katalog AI & Data Literacy"
+  title = "OER Catalogue AI & Data Literacy"
 
 # The search page also emits /<lang>/index.json, the client-side search index.
 [outputs]

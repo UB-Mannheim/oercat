@@ -4,19 +4,12 @@
 
 <section class="hero">
   <h1>{{ .Site.Title }}</h1>
-  <p class="tagline">{{ i18n "tagline" }}</p>
+  <p class="tagline">{{ i18n "tagline" | markdownify }}</p>
   <form class="search" role="search" action="" onsubmit="return false">
     <label class="visually-hidden" for="q">{{ i18n "search_label" }}</label>
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
     <input id="q" name="q" type="search" placeholder="{{ i18n "search_placeholder" }}" autocomplete="off" spellcheck="false">
   </form>
-  <!-- <ul class="stats">
-    <li><strong>{{ $vocab.stats.total }}</strong> {{ i18n "stats_oer" }}</li>
-    <li><strong>{{ $vocab.stats.languages }}</strong> {{ i18n "stats_languages" }}</li>
-    <li><strong>{{ $vocab.stats.disciplines }}</strong> {{ i18n "stats_disciplines" }}</li>
-    <li><strong>{{ $vocab.stats.keywords }}</strong> {{ i18n "stats_keywords" }}</li>
-    <li>{{ i18n "stats_updated" }}: <strong>{{ time.Format ":date_medium" $vocab.stats.updated }}</strong></li>
-  </ul> -->
 </section>
 
 <div class="layout">
@@ -26,7 +19,7 @@
       <button type="button" class="link-button only-mobile" id="filters-close">{{ i18n "close" }}</button>
     </div>
     <div id="facets"></div>
-    <details class="facet" open>
+    <details class="facet">
       <summary>{{ i18n "year" }}</summary>
       <div class="facet-years">
         <label>{{ i18n "year_from" }}
