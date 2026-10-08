@@ -55,6 +55,6 @@ FACETS: list[str] = [
 
 # Facets whose values have a natural order (taken from the picklist) instead of
 # being sorted by frequency.
-ORDERED_FACETS: set[str] = {"level"}
+ORDERED_FACETS: set[str] = set()
 
 COLUMNS_BY_KEY: dict[str, Column] = {c.key: c for c in COLUMNS}
