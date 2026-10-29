@@ -3,12 +3,24 @@
   <div class="container site-footer-inner">
     <div class="footer-text">
       <p>{{ i18n "footer_data" | markdownify }}</p>
-      <p>{{ i18n "stats_updated" }}: {{ time.Format ":date_medium" $stats.updated }}</p>
+      <p>{{ i18n "footer_illustration_license" | markdownify }}</p>
     </div>
-    {{ with resources.Get "img/csm_Logo_Stiftung_Hochschullehre_pos-Gefoerdert-durch_093bad8e25.jpg" }}
-    <a class="footer-logo" href="https://stiftung-hochschullehre.de" target="_blank" rel="noopener">
-      <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="Gefördert durch die Stiftung Innovation in der Hochschullehre">
-    </a>
-    {{ end }}
+    <div class="footer-logos">
+      {{ with resources.Get "img/UMA.svg" }}
+      <a class="footer-logo-uma" href="https://www.uni-mannheim.de" target="_blank" rel="noopener">
+        <img class="footer-logo-uma" src="{{ .RelPermalink }}" alt="Universität Mannheim">
+      </a>
+      {{ end }}
+      {{ with resources.Get "img/UB.png" }}
+      <a class="footer-logo-ub" href="https://bib.uni-mannheim.de" target="_blank" rel="noopener">
+        <img class="footer-logo-ub" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="Universitätsbibliothek Mannheim">
+      </a>
+      {{ end }}
+      {{ with resources.Get "img/csm_Logo_Stiftung_Hochschullehre_pos-Gefoerdert-durch_093bad8e25.jpg" }}
+      <a class="footer-logo-stil" href="https://stiftung-hochschullehre.de" target="_blank" rel="noopener">
+        <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="Gefördert durch die Stiftung Innovation in der Hochschullehre">
+      </a>
+      {{ end }}
+    </div>
   </div>
 </footer>

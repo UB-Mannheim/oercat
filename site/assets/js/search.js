@@ -296,7 +296,7 @@ function render() {
   const terms = new Map(hits?.map((h) => [h.id, h.terms]) ?? []);
 
   let results = pool.filter((doc) => matches(doc));
-  const sort = state.sort && (state.sort !== "relevance" || hits) ? state.sort : hits ? "relevance" : "newest";
+  const sort = state.sort && (state.sort !== "relevance" || hits) ? state.sort : hits ? "relevance" : "added";
   if (SORTS[sort]) results = [...results].sort(SORTS[sort]);
   els.sort.value = sort;
 
