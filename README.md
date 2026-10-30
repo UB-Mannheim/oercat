@@ -1,4 +1,4 @@
-# OERcat
+# OERcat 😺
 
 [OERcat](https://ub-mannheim.github.io/oercat/en/) is a web dashboard that allows users to search for and filter open educational resources (OER) related to AI and data literacy.
 
