@@ -44,7 +44,7 @@ role_S: supporting
 role_R: recommending
 orcid: ORCID profile
 footer_data: Metadata following the [DALIA Interchange Format 1.4](https://doi.org/10.5281/zenodo.11521028) and licensed under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode.en)
-footer_illustration_license: Illustrations are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
+footer_illustration_license: Illustrations by Faranak Manjili, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 facet_type: Resource type
 facet_discipline: Discipline
 facet_language: Language
