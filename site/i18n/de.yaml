@@ -43,7 +43,7 @@ catalogue_no: Katalognummer
 role_S: unterstützend
 role_R: empfehlend
 orcid: ORCID-Profil
-footer_data: Metadata nach dem [DALIA Interchange Format 1.4](https://doi.org/10.5281/zenodo.11521028), lizensiert unter [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode.de)
+footer_data: Metadata nach dem [DALIA Interchange Format 1.4](https://doi.org/10.5281/zenodo.11521028)
 footer_illustration_license: Illustrationen von Faranak Manjili, lizensiert unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de)
 facet_type: Ressourcentyp
 facet_discipline: Fachgebiet
