@@ -3,7 +3,6 @@ __pycache__/
 *.egg-info/
 .pytest_cache/
 .ruff_cache/
-tests/
 site/data/oers.json
 site/data/vocab.json
 site/public/
@@ -11,4 +10,3 @@ site/resources/
 site/.hugo_build.lock
 .DS_Store
 ~$*.xlsx
-assets/
