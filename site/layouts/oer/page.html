@@ -1,11 +1,9 @@
 {{ define "main" }}
 {{ $o := .Params.oer }}
-{{ $labels := index hugo.Data.vocab.labels .Language.Lang }}
 <article class="detail">
   <p><a class="back-link" href="{{ "" | relLangURL }}" data-back-link>← {{ i18n "back_to_results" }}</a></p>
 
   <header class="detail-header">
-    {{ with $o.type }}<p class="eyebrow">{{ range $i, $v := . }}{{ if $i }} · {{ end }}{{ or (index $labels.type $v) $v }}{{ end }}</p>{{ end }}
     <h1>{{ $o.title }}</h1>
     {{ with $o.authors }}
       <p class="detail-authors">
@@ -34,7 +32,7 @@
 
     <aside class="detail-meta">
       <dl>
-        {{ range $key := slice "discipline" "audience" "level" "language" "media" "keywords" "license" "format" "accessibility" }}
+        {{ range $key := slice "discipline" "audience" "level" "language" "type" "media" "keywords" "license" "format" "accessibility" }}
           {{ with index $o $key }}
             <dt>{{ i18n (printf "facet_%s" $key) }}</dt>
             <dd>{{ partial "chips.html" (dict "page" $ "key" $key "values" .) }}</dd>

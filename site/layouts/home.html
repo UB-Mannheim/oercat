@@ -3,7 +3,7 @@
 {{ $lang := .Language.Lang }}
 
 <section class="hero">
-  <h1>{{ .Site.Title }}</h1>
+  <h1>{{ i18n "hero_title" }}</h1>
   <p class="tagline">{{ i18n "tagline" | markdownify }}</p>
   <form class="search" role="search" action="" onsubmit="return false">
     <label class="visually-hidden" for="q">{{ i18n "search_label" }}</label>

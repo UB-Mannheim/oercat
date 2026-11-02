@@ -228,7 +228,6 @@ select {
 
 .detail { padding-top: 24px; }
 .back-link { font-size: .9rem; text-decoration: none; }
-.eyebrow { margin: 16px 0 4px; color: var(--accent); font-weight: 600; font-size: .85rem; text-transform: uppercase; letter-spacing: .04em; }
 .detail-authors { color: var(--muted); margin: 0 0 16px; }
 .orcid { display: inline-block; font-size: .7rem; font-weight: 700; background: #a6ce39; color: #fff; border-radius: 50%; width: 1.5em; height: 1.5em; line-height: 1.5em; text-align: center; text-decoration: none; vertical-align: 1px; }
 .detail-actions { display: flex; flex-wrap: wrap; gap: 8px; }
