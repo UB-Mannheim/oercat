@@ -23,7 +23,7 @@ uv run oercat build      # full static build into site/public/
 
 ## Funding
 
-`OERcat` is a project outcome of [AiDaLi: Promoting AI and Data Literacy Through OER Production](https://transferkiosk.net/p/102025-durch-oer-produktion-zu-ai-und) (2026-2028), funded by [Stiftung Innovation in der Hochschullehre](https://stiftung-hochschullehre.de/en/).
+`OERcat` is a project outcome of [AiDaLi: Creating OER to Build AI and Data Literacy](https://transferkiosk.net/p/102025-durch-oer-produktion-zu-ai-und) (2026-2028), funded by [Stiftung Innovation in der Hochschullehre](https://stiftung-hochschullehre.de/en/).
 
 ## Acknowledgement
 
